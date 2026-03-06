@@ -1,6 +1,6 @@
-import postRepository from '../repositories/post.repository'
-import { CreatePostDTO } from '../dto/post/create-post.dto'
-import { UpdatePostDTO } from '../dto/post/update-post.dto'
+import postRepository from '~/repositories/post.repository'
+import { CreatePostDTO } from '~/dto/post/create-post.dto'
+import { UpdatePostDTO } from '~/dto/post/update-post.dto'
 
 class PostService {
   async getPosts() {

@@ -1,7 +1,7 @@
 import { Request, Response } from 'express'
-import postService from '../services/post.service'
-import { createPostSchema } from '../dto/post/create-post.dto'
-import { updatePostSchema } from '../dto/post/update-post.dto'
+import postService from '~/services/post.service'
+import { createPostSchema } from '~/dto/post/create-post.dto'
+import { updatePostSchema } from '~/dto/post/update-post.dto'
 
 class PostController {
   async index(req: Request<{ id: string }>, res: Response) {

@@ -1,5 +1,5 @@
-import PostModel from '../models/post.model'
-import { Post } from '../types/post.type'
+import PostModel from '~/models/post.model'
+import { Post } from '~/types/post.type'
 
 class PostRepository {
   async findAll() {

@@ -1,6 +1,6 @@
-import app from './app'
+import app from '~/app'
 import dotenv from 'dotenv'
-import connectDB from './config/database'
+import connectDB from '~/config/database'
 
 const PORT = process.env.PORT || 3000
 dotenv.config()

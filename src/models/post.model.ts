@@ -1,5 +1,5 @@
 import mongoose, { Schema } from 'mongoose'
-import { Post } from '../types/post.type'
+import { Post } from '~/types/post.type'
 
 const PostSchema = new Schema<Post>(
   {
