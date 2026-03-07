@@ -16,6 +16,7 @@ export const generateRefreshToken = async (userId: string) => {
 
   return refreshToken
 }
+
 export const verifyAccessToken = (token: string) => {
   return jwt.verify(token, envConfig.jwtSecret)
 }

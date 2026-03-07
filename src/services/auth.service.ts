@@ -65,8 +65,8 @@ class AuthService {
       id: user._id,
       email: user.email,
       name: user.name,
-      created_at: user.createdAt as Date,
-      updated_at: user.updatedAt as Date
+      created_at: user.createdAt,
+      updated_at: user.updatedAt
     }
   }
 
